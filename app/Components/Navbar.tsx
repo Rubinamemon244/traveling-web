@@ -2,9 +2,7 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/20/solid'; // Updated imp
 import Image from 'next/image';
 import React, { useState } from 'react';
 
-interface Props {
-  openNav: () => void;
-}
+
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
